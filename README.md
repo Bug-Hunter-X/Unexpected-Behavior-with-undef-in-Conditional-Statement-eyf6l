@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Perl: using the 'eq' operator to compare an undefined variable. The 'bug.pl' file contains the erroneous code, while 'bugSolution.pl' provides a corrected version.  The issue arises because 'undef' doesn't directly compare as a string with 'eq'.  The solution shows how to handle undefined variables safely.
